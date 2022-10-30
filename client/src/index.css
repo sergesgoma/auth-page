@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #294276, #4d7699, #81b4c2, #c4e9e9);
+  font-size: 62.5%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+:root {
+  --primary: #3e55a7;
+  --secondary: #e0e0e0;
+
+  --gray-1: #aeaeae;
+  --gray-2: #545454;
+
+  --dark-blue: #223871;
+  --light-blue: #30e2cd70;
+}

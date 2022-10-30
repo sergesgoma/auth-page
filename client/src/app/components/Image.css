@@ -1,0 +1,5 @@
+.bg {
+  width: 50%;
+  background: url('../../assets/img/party.png') no-repeat center/cover;
+  border-radius: 10px 0 0 10px;
+}
