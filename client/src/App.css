@@ -1,0 +1,77 @@
+h1 {
+  text-align: center;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 3rem;
+}
+
+.main {
+  margin: 5% auto;
+  height: 800px;
+  max-width: 1200px;
+  display: flex;
+  background: var(--gray-1);
+  border-radius: 10px;
+  box-shadow:-15px 16px 10px 5px rgba(22 35 46 / 20%);
+}
+
+.section__text {
+  background: linear-gradient(to right, #c9c9c9, #d8d8d8, #e2e2e2 80%);
+  height: 100%;
+  width: 50%;
+  border-radius: 0 10px 10px 0;
+}
+
+.form {
+  height: 500px;
+  width: 350px;
+  margin: 35% auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-size:12px;
+}
+
+.text a {
+  color: var(--dark-blue);
+}
+
+#email,
+#password {
+  outline: 0;
+  border: none;
+  margin-top: 0.2rem;
+  height: 1.5rem;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  font-size: 20px;
+}
+
+
+.btn {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1.2rem;
+  width: 100%;
+  background-color: var(--primary);
+  color: white;
+  outline: 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--dark-blue);
+  color: var(--secondary);
+  transition: 0.4s ease-in-out all;
+}
+
+.offline {
+  display:none;
+}

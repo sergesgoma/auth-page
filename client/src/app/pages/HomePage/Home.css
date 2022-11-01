@@ -1,0 +1,37 @@
+.links {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1.2rem 0;
+  width: 100%;
+  background-color: var(--primary);
+  color: white;
+  outline: 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.links:hover {
+  background-color: var(--dark-blue);
+  color: var(--secondary);
+  transition: 0.3s ease-in all;
+}
+
+.title {
+  margin-bottom: 0rem;
+  text-align: center;
+}
+
+.logout {
+  background-color: darkred;
+  margin-top: 5rem;
+}
+
+.logout:hover {
+  background-color: var(--gray-2);
+  color: var(--secondary);
+  transition: 0.4s ease-in all;
+}

@@ -1,9 +1,0 @@
-.main {
-  margin: 5% auto;
-  height: 800px;
-  max-width: 1200px;
-  display: flex;
-  background: var(--gray-1);
-  border-radius: 10px;
-  box-shadow:-15px 16px 10px 5px rgba(22 35 46 / 20%);
-}
