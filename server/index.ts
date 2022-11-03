@@ -29,11 +29,11 @@ const store = new MongoDBSession({
   collection: "mySession",
 });
 
-// static file path
-app.use(express.static(path.join(__dirname, "/public")));
 
-// extraction of the form data + addition of the req.body proprieties
+app.use(express.json());
+
 app.use(express.urlencoded({ extended: true }));
+
 
 app.use(
   session({
